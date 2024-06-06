@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(252, 220, 225);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: rgb(223, 75, 99);
+}
+
+.converter {
+    border: 1px dotted grey;
+    padding: 80px;
+    border-radius: 20px;
+    background-color: lavender;
+}
+
+input{
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+select {
+    height: 40px;
+    margin-left: 10px;
+    margin: 10px ;
+    background-color: lavenderblush;
+    font-size: 18px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(251, 120, 142);
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(239, 94, 118);
+}
